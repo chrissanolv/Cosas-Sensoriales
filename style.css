@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-h1 {
+header {
   color: #8e1616;
   font-family: "Staatliches", serif;
   text-align: justify;
@@ -23,4 +23,12 @@ section {
 
 * {
   background-color: #1D1616;
+}
+
+legend {
+  color: #d84040;
+}
+
+button {
+  color: #8e1616;
 }
