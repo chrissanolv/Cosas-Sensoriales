@@ -4,11 +4,23 @@
   font-style: normal;
 }
 
+:root {
+  --color_de_fondo: #1D1616;
+  --color_de_titulos: #8e1616;
+  --color_de_subtitulos: #d84040;
+  --color_de_texto: #EEEEEE;
+  --fuente_principal: "Staatliches", serif;
+}
+
+* {
+  background-color: var(--color_de_fondo);
+}
+
 header {
-  color: #8e1616;
-  font-family: "Staatliches", serif;
-  text-align: justify;
-  font-size: xxx-large;
+  color: var(--color_de_titulos);
+  font-family: var(--fuente_principal);
+  text-align: left;
+  font-size: xx-large;
 }
 
 h2 {
@@ -20,10 +32,6 @@ section {
   font-family: "Staatliches", serif;
   color: #EEEEEE;
   text-align: justify;
-}
-
-* {
-  background-color: #1D1616;
 }
 
 legend {
